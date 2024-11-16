@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <link rel="stylesheet" href="./css/example1.css">
+  <style>
+    /* .z-front {
+      z-index: 1;
+    }
+     */
+
+    .item-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+
+    body {
+      height: 2000px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="./img/aueb-logo.jpg" alt="AUEB">
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">We Educate</a></li>
+        <li><a href="">We Innovate</a></li>
+        <li><a href="">We are</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container item-sticky">
+    <div class="box1">1</div>
+    <div class="box2 item-relative">2</div>
+    <div class="box3">3</div>
+  </div>
+ 
+  <div class="container">
+    <div class="box4">4</div>
+    <div class="box5 z-front item-absolute">5</div>
+    <div class="box6">6</div>
+  </div>
+
+
+</body>
+</html>

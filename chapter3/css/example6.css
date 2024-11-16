@@ -1,0 +1,9 @@
+p {
+  border: 1px solid black;
+  width: 100px;
+  
+  /*overflow: visible; emfanisi*/
+  /*overflow: hidden; krifo*/
+  /*overflow: scroll;  scroll bar sto plai*/
+  overflow: auto; /*automati anagnorisi an xreiazetai scroll */
+}

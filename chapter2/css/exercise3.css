@@ -1,0 +1,56 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d7d2d2;
+  color: #333;
+}
+
+header {
+  background-color: rgb(24, 164, 169);
+  color: rgb(58, 48, 48);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #894383;
+  padding: 10px;
+  text-align: justify;
+}
+
+nav a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(67, 67, 60);
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.image {
+  height: auto;
+  max-width: 100%;
+  max-height: 300px;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;  
+}
+
+#top-banner {
+  float: center;
+  margin-block: 10px;
+}

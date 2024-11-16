@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Φόρμα</title>
+  <link rel="stylesheet" href="./css/exercise_forma_pl.css">
+</head>
+<body>
+  <form>
+    <fieldset style="width: 450px">
+      <h1>Φόρμα Πληρωμής</h1>
+      <p>Τα υποχρεωτικά πεδία ακολουθούνται από *</p>
+      <div class="personal-info">
+        <h2>Προσωπικά Στοιχεία</h2>
+        <form>
+          <fieldset style="width: 280px; margin-left: 115px;">
+            <legend>Title</legend>
+            <div class="title">
+              <input type="radio" name="title" id="mister" value="Mr.">
+              <label for="gender">Mr.</label>
+              <p><input type="radio" name="title" id="miss" value="Mrs.">
+              <label for="gender">Mrs.</label></p>
+              <p><input type="radio" name="title" id="doctor" value="Dr.">
+              <label for="gender">Dr.</label></p>
+            </div>
+          </fieldset>
+
+          <div class="infos" style="margin-left: 15px;">
+          <div class="name"  style="width: max-content; margin-left: 40px;">
+            <label for="name">Name : <abbr title="Required field">*</abbr></label>
+            <input type="text" name="name" id="name" size="40">
+          </div>
+      
+          <div class="email"  style="width: max-content; margin-left: 35px;">
+            <label for="email">E-mail : <abbr title="Required field">*</abbr></label>
+            <input type="email" name="email" id="email" size="40">
+          </div>
+      
+          <div class="password" style="width: max-content; margin-left: 18px;">
+            <label for="password">Password : <abbr title="Required field">*</abbr></label>
+            <input type="password" value="password" id="password" size="40">
+          </div>
+        </form>
+      </div>
+    </div>
+      
+
+        
+          <h2>Πληροφορίες Πληρωμής</h2>
+          <div class="payment-infos" >
+          <div class="card-type"  style="width: max-content; margin-left: 40px;">
+            <label for="card-type">Card Type : </label>
+            <select name="card-type" id="card-type">
+              <option value="1">Visa</option>
+              <option value="2">Mastercard</option>
+              <option value="3">American Express</option>
+              <option value="4">Maestro</option>
+              <option value="5">Other</option>
+            </select>
+          </div>
+
+          <div class="card-num"  style="width: max-content; margin-left: 8px;">
+            <label for="card-num">Card Number :  <abbr title="Required field">*</abbr></label>
+            <input type="text" name="card-num" size="20">
+          </div>
+
+          <div class="expiration-date"  style="width: max-content; margin-left: 0px;">
+            <label for="expiration-date">Expiration date :  <abbr title="Required field">*</abbr></label>
+            <input type="text" placeholder="MM-YYYY" size="20">
+          </div>
+
+        </div>
+        
+          <div class="submit">
+            <p><input type="submit" value="Προχωρήστε στην πληρωμή"></p>
+          </div>
+      
+
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.list-1 {
+  list-style-type: square;
+}
+
+
+ul li {
+  color: rgb(144, 75, 144);
+  background-color: rgb(69, 215, 64);
+}
+
+ul {
+  background-color: rgb(188, 43, 159);
+}
+

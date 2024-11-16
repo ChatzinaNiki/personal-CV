@@ -1,0 +1,80 @@
+p > h1 {
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: left;
+  
+}
+
+.fieldset {
+  text-align: right;
+  margin: inherit;
+}
+
+.name {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  }
+
+.email {
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+.password {
+  text-align: left;
+  margin-right: 20px;
+}
+
+ 
+
+.card-type {
+  padding-bottom: 10px;
+}
+
+.card-num {
+  padding-bottom: 10px;
+}
+
+.expiration-date {
+  padding-bottom: 10px;
+}
+
+.form label,
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form select {
+  display: block;
+  text-align: left; 
+}
+
+.form h2 {
+  text-align: left; 
+}
+
+.personal-info {
+  text-align: left;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.payment-infos {
+  margin-left: 25px;
+}
+
+.submit {
+  text-align: center;
+}
+
+abbr[title="Required field"] {
+  color: red;
+}

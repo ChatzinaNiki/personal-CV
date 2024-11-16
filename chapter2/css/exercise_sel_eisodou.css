@@ -1,0 +1,48 @@
+.container {
+  background-color: white;
+  letter-spacing: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  border: 0px;
+  border-color: rgb(66, 66, 200);
+  width: 350px;
+  height: auto;
+  margin: auto;
+}
+
+.fieldset {
+  color: grey;
+}
+
+.e-mail {
+  padding-bottom: 20px;
+}
+
+.password {
+  padding-bottom: 20px;
+}
+
+.button {
+  padding-top: 20px;
+  color-scheme: blue;
+}
+
+p {
+  padding-top: 20px;
+  font-size: larger;
+  letter-spacing: inherit;
+}
+
+.text {
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+body {
+  background-color:  rgba(58, 113, 243, 0.852);
+  font-size: small;
+}

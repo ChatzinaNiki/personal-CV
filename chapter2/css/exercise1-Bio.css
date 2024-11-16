@@ -1,0 +1,45 @@
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(17, 62, 144);
+}
+
+hr {
+  border-color: black;
+  border-width: 1px;
+}
+
+body {
+  font-family: inherit;
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  color: #237762;
+  text-align: inherit;
+  text-shadow: 2px 2px 2px red;
+  text-decoration: underline;
+} */
+
+fieldset {
+  background-color: lightgrey;
+  border-style: solid;
+  border-width: 5px;
+  border-color: purple;
+}
+
+a:hover {
+  color: rgb(238, 160, 16);
+}
+
+ul em {
+  color: rgb(238, 160, 16);
+}
+
+.bio-text {
+  font-family: 'Roboto Slab', sans-serif;
+}
